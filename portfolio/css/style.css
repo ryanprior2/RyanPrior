@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* laptop */
+
+body{
+	background: ghostwhite;
+	color: black;
+	margin: 0px;
+	display: block;
+}
+
+nav {
+	margin: 0; 
+	overflow: hidden;
+	list-style-type: none;
+	background: slategrey;
+	width: 100%;
+	display: block;	
+	z-index: 2;
+	position: fixed;
+	border-bottom: 2px solid black;
+}
+
+nav a {
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	display: block;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-family: Arial;
+	color: black;
+}
+
+nav .current {
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	background: gold;
+	border: 3px solid slategrey;
+	border-radius: 20px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.logo {
+	z-index: 3;
+	position: fixed;
+	top: 8px;
+	right: 25px;
+}
+
+.logo img {
+	width: 50px;
+}
+
+main p {
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	padding: 4px 6px;
+	font-size: 1.25em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+h1 {
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	font-size: 2.25em;
+	padding: 4px 6px;
+	margin-top: 2em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 4px 6px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 4px 6px;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 4px 6px;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	margin-top: 0.67em;
+}
+
+.cc {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 500px 500px 500px;
+	grid-template-rows: auto;
+	grid-template-areas: "about about headshot";
+	text-align: center;
+	background-color: slategrey;
+}
+
+.about {
+	grid-area: about;
+}
+
+.about p, .about h4 {
+	margin-left: 30px;
+	color: white;
+}
+
+.about h4 {
+	margin-top: 50px;
+	color: gold;
+}
+
+.headshot {
+	grid-area: headshot;
+}
+
+.headshot img {
+	border-radius: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+	margin-left: 50px;
+}
+
+.center h1, h2, h3 {
+	margin-left: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 700px;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.large {
+	width: 100%;
+}
+
+.medium {
+	width: 65%;
+}
+
+.small {
+	width: 50%;
+}
+
+.container img {
+	border-radius: 20px;
+}
+
+.container video{
+	width: 40%;
+	border-radius: 20px;
+}
+
+.container p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container h3 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-left: 0px;
+}
+
+.about {
+	width:990px;
+	margin-top: 80px;
+}
+
+.fade img {
+	border-radius: 20px;
+}
+
+.fade .name {
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+div a {
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+div a:hover {
+	color: white;
+}
+
+.container a {
+	color: slategrey;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 8px;
+	background-color: gold;
+	border: 1.5px solid slategrey;
+	border-radius: 20px
+}
+
+.container a:hover {
+	color: black;
+	border: 1.5px solid black;
+}
+
+footer {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+	list-style-type: none;
+	background: slategrey;
+	display: block;
+    border-radius: 20px;
+}
+
+footer p {
+	font-family: Arial;
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	padding: 10px 10px;
+}
+
+footer i {
+	color: gold;
+}
+
+.center hr {
+    display: block;
+    height: 6px;
+    border: 0;
+    border-radius: 50px;
+    background: slategrey;
+    margin: 1em 0;
+    padding: 0;
+    width: 700px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container hr {
+    display: block;
+    height: 6px;
+    border: 0;
+    border-radius: 50px;
+    background: slategrey;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.info {
+	display: grid;
+	grid-template-columns: 500px 500px;
+	}
+
+.carousel {
+	margin: auto;
+	margin-top: 75px;
+    max-width: 1000px;
+    position: relative;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: slategrey;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+    user-select: none;
+    background-color: gold;
+    border: 1.5px solid slategrey;
+}
+
+.prev {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.next {
+    right: 0;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.prev:hover, .next:hover {
+    background-color: gold;
+    color: black;
+    border: 1.5px solid black;
+}
+
+.number {
+	font-family: arial;
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    font-weight: bold;
+}
+
+.name {
+    background: slategrey;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.name p {
+	font-family: arial;
+    color: white;
+    font-size: 1.25em;
+	padding: 8px 12px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: slategrey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+	background-color: gold;
+	border: 1.5px solid slategrey;
+	} 
+
+.dot:hover {
+    background-color: black;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    display: none;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.fade img {
+	width: 100%;
+	height: 475px;
+}
+
+.dot_container {
+	text-align: center;
+}
+
+/* ipad */
+
+@media only screen and (max-width:800px){
+
+.cc {
+	display: grid;
+	grid-template-columns: 600px;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"headshot"
+	"about";
+	text-align: center;
+	justify-content: center;
+	margin-left: 0px;
+}
+
+.about p, .about h4 {
+	margin-left: 0;
+}
+
+.about {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 600px
+}
+
+.about, .headshot {
+	text-align: center;
+	padding: 0px;
+}
+
+.about h4 {
+	margin-top: 0px;
+}
+
+.about p {
+	margin-bottom: 20px;
+}
+
+.carousel {
+	position: absolute;
+	visibility: hidden;
+	width: 100px;
+	top: 0;
+}
+
+.dot_container {
+	position: absolute;
+	visibility: hidden;
+	width: 100px;
+	top: 0;
+}
+
+}
+
+/* iphone 6/7/8 */
+
+@media only screen and (max-width:500px){
+
+h1 {
+	margin-top: 20px;
+}
+
+.container {
+	grid-template-columns: 300px;
+}
+
+.cc {
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"headshot"
+	"about";
+	text-align: center;
+	justify-content: center;
+	margin-left: 0px;
+}
+
+.about p, .about h4 {
+	margin-left: 0;
+}
+
+.about, .headshot {
+	text-align: center;
+	padding: 0px;
+}
+
+.about {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 300px
+}
+
+.about h4 {
+	margin-top: 0px;
+}
+
+.about p {
+	margin-bottom: 20px;
+}
+
+.headshot img {
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.carousel {
+	position: absolute;
+	visibility: hidden;
+	width: 100px;
+	top: 0;
+}
+
+.dot_container {
+	position: absolute;
+	visibility: hidden;
+	width: 100px;
+	top: 0;
+}
+
+.center hr {
+	width: 300px;
+}
+
+.center {
+	text-align: center;
+}
+
+nav {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+}
+
+footer {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+}
