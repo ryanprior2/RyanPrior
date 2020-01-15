@@ -34,6 +34,11 @@ nav a {
 
 nav a:hover {
 	font-family: Arial;
+	color: yellow;
+}
+
+nav .current a:hover {
+	font-family: Arial;
 	color: black;
 }
 
