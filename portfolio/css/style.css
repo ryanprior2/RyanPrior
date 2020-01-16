@@ -13,7 +13,7 @@ nav {
 	margin: 0; 
 	overflow: hidden;
 	list-style-type: none;
-	background: slategrey;
+	background: rgb(51, 102, 153);
 	width: 100%;
 	display: block;	
 	z-index: 2;
@@ -47,7 +47,7 @@ nav .current {
 	color: black;
 	font-weight: bold;
 	background: gold;
-	border: 3px solid slategrey;
+	border: 3px solid rgb(51, 102, 153);
 	border-radius: 20px;
 }
 
@@ -130,7 +130,7 @@ h4 {
 	grid-template-rows: auto;
 	grid-template-areas: "about about headshot";
 	text-align: center;
-	background-color: slategrey;
+	background-color: rgb(51, 102, 153);
 }
 
 .about {
@@ -235,7 +235,7 @@ div a:hover {
 }
 
 .container a {
-	color: slategrey;
+	color: rgb(51, 102, 153);
 	text-decoration: none;
 	font-family: arial;
 	font-size: 1em;
@@ -258,7 +258,7 @@ footer {
 	margin-right: 10px;
 	overflow: hidden;
 	list-style-type: none;
-	background: slategrey;
+	background: rgb(51, 102, 153);
 	display: block;
     border-radius: 20px;
 }
@@ -281,7 +281,7 @@ footer i {
     height: 6px;
     border: 0;
     border-radius: 50px;
-    background: slategrey;
+    background: rgb(51, 102, 153);
     margin: 1em 0;
     padding: 0;
     width: 700px;
@@ -295,7 +295,7 @@ footer i {
     height: 6px;
     border: 0;
     border-radius: 50px;
-    background: slategrey;
+    background: rgb(51, 102, 153);
     margin: 1em 0;
     padding: 0;
 }
@@ -319,13 +319,13 @@ footer i {
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: slategrey;
+    color: rgb(51, 102, 153);
     font-weight: bold;
     font-size: 18px;
     transition: 0.4s ease;
     user-select: none;
     background-color: gold;
-    border: 1.5px solid slategrey;
+    border: 1.5px solid rgb(51, 102, 153);
 }
 
 .prev {
@@ -376,7 +376,7 @@ footer i {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: slategrey;
+    background-color: rgb(51, 102, 153);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -384,7 +384,7 @@ footer i {
 
 .active {
 	background-color: gold;
-	border: 1.5px solid slategrey;
+	border: 1.5px solid rgb(51, 102, 153);
 	} 
 
 .dot:hover {
