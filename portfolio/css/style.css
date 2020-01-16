@@ -235,20 +235,18 @@ div a:hover {
 }
 
 .container a {
-	color: rgb(51, 102, 153);
+	color: white;
 	text-decoration: none;
 	font-family: arial;
 	font-size: 1em;
 	font-weight: bold;
 	padding: 8px;
-	background-color: gold;
-	border: 1.5px solid slategrey;
+	background-color: rgb(51, 102, 153);
 	border-radius: 20px
 }
 
 .container a:hover {
-	color: black;
-	border: 1.5px solid black;
+	color: gold;
 }
 
 footer {
