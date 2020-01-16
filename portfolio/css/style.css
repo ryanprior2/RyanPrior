@@ -242,7 +242,8 @@ div a:hover {
 	font-weight: bold;
 	padding: 8px;
 	background-color: rgb(51, 102, 153);
-	border-radius: 20px
+	border-radius: 20px;
+	border: 1.5px solid black;
 }
 
 .container a:hover {
