@@ -37,7 +37,7 @@ nav a:hover {
 	color: gold;
 }
 
-nav a:active:hover {
+.current a:hover {
 	font-family: Arial;
 	color: black;
 }
