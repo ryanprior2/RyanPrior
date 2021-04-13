@@ -138,6 +138,7 @@ h4 {
 .about p, .about h4 {
 	margin-left: 30px;
 	color: white;
+	padding-left: 150px;
 }
 
 .about h4 {
@@ -150,9 +151,8 @@ h4 {
 }
 
 .headshot img {
-	border-radius: 300px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-left: 200px;
+	height:100%;
 }
 
 h1, h2, h3 {
