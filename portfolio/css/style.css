@@ -124,11 +124,13 @@ h4 {
 .cc {
 	margin-top: 50px;
 	display: grid;
-	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-columns: 2fr 1fr;
 	grid-template-rows: auto;
-	grid-template-areas: "about about headshot";
+	grid-template-areas: "about headshot";
 	text-align: center;
 	background-color: rgb(51, 102, 153);
+	width: 100vh;
+	height: 200px;
 }
 
 .about {
