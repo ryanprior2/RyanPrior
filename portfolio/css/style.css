@@ -137,6 +137,7 @@ h4 {
 	grid-area: about;
 	padding-left: 40px;
 	padding-right: 40px;
+	justify-content: center;
 }
 
 .about p, .about h4 {
@@ -150,6 +151,7 @@ h4 {
 
 .headshot {
 	grid-area: headshot;
+	justify-content: center;
 }
 
 .headshot img {
