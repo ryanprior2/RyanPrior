@@ -439,6 +439,7 @@ footer i {
 
 .about p, .about h4 {
 	margin-left: 0;
+	visibility: hidden;
 }
 
 .about {
@@ -510,6 +511,7 @@ h1 {
 
 .about p, .about h4 {
 	margin-left: 0;
+	visibility: hidden;
 }
 
 .about, .headshot {
@@ -532,8 +534,6 @@ h1 {
 }
 
 .headshot img {
-	width: 200px;
-	margin-top: 20px;
 	margin-bottom: 0px;
 }
 
