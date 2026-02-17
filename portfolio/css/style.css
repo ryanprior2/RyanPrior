@@ -2,7 +2,7 @@
 
 /* laptop */
 
-body{
+body {
 	background: white;
 	color: black;
 	margin: 0px;
@@ -64,6 +64,11 @@ nav li {
 	width: 50px;
 }
 
+main {
+	padding-bottom: 60px;
+}
+
+
 main p {
 	font-family: Arial;
 	color: black;
@@ -122,22 +127,24 @@ h4 {
 }
 
 .cc {
-	margin-top: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	display: grid;
-	grid-template-rows: 2fr 1fr;
-	grid-template-areas: "about headshot";
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 2fr 1fr 1fr;
+	grid-template-areas: "blank about headshot none";
 	text-align: center;
 	background-color: #232f3e;
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	justify-content: center;
 }
 
 .about {
 	grid-area: about;
-	padding-left: 80px;
-	padding-right: 80px;
-	justify-content: center;
+	justify-self: center;
+	align-self: center;
+	width:100%;
 }
 
 .about p, .about h4 {
@@ -145,7 +152,6 @@ h4 {
 }
 
 .about h4 {
-	margin-top: 50px;
 	color: gold;
 }
 
@@ -155,7 +161,7 @@ h4 {
 }
 
 .headshot img {
-	height: 400px;
+	height: 100%;
 }
 
 h1, h2, h3 {
@@ -210,10 +216,6 @@ h1, h2, h3 {
 	margin-left: 0px;
 }
 
-.about {
-	width:990px;
-	margin-top: 80px;
-}
 
 .fade img {
 	border-radius: 20px;
@@ -253,8 +255,8 @@ div a:hover {
 }
 
 footer {
+	position: fixed;
 	bottom: 0;
-	margin-top: 20px;
 	overflow: hidden;
 	list-style-type: none;
 	background: #232f3e;
@@ -310,7 +312,7 @@ footer i {
 
 .carousel {
 	margin: auto;
-	margin-top: 75px;
+	margin-top: 50px;
   	max-width: 900px;
    	position: relative;
 }
@@ -423,14 +425,14 @@ footer i {
 
 /* ipad */
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:1000px){
 
 .cc {
 	display: grid;
-	grid-template-columns: 600px;
-	grid-template-rows: auto;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
 	grid-template-areas: 
-	"headshot"
+	"headshot" 
 	"about";
 	text-align: center;
 	justify-content: center;
@@ -439,13 +441,13 @@ footer i {
 
 .about p, .about h4 {
 	margin-left: 0;
-	visibility: hidden;
+
 }
 
 .about {
 	margin-top: 20px;
 	margin-bottom: 10px;
-	width: 600px
+	width: 100%
 }
 
 .about, .headshot {
@@ -475,13 +477,6 @@ footer i {
 	top: 0;
 }
 
-footer {
-	margin-bottom: 0px;
-	border-radius: 0px;
-	width: 100%;
-	margin-left: 0px;
-	margin-top: 0px;
-}
 
 }
 
@@ -499,8 +494,8 @@ h1 {
 
 .cc {
 	display: grid;
-	grid-template-columns: 300px;
-	grid-template-rows: auto;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
 	grid-template-areas: 
 	"headshot"
 	"about";
@@ -511,7 +506,6 @@ h1 {
 
 .about p, .about h4 {
 	margin-left: 0;
-	visibility: hidden;
 }
 
 .about, .headshot {
@@ -522,7 +516,7 @@ h1 {
 .about {
 	margin-top: 20px;
 	margin-bottom: 10px;
-	width: 300px
+	width: 100%;
 }
 
 .about h4 {
@@ -568,3 +562,5 @@ nav {
 }
 
 }
+
+
