@@ -102,6 +102,18 @@ h2 {
 	font-weight: bold;
 }
 
+.contact-link {
+    color: black;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.contact-link:hover,
+.contact-link:visited,
+.contact-link:active {
+    color: black;
+}
+
 h3 {
 	font-family: Arial;
 	color: black;
